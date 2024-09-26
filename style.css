@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E7A0F3;
+  font-family: "Playfair Display", system-ui;
+  font-family: "Cormorant", system-ui; 
+  color: black;
+}
+input[type="checkbox"]{
+  transform: scale(2);
+  margin-right: 30px;
+}
+
+input[type="text"]{
+  width: 150px;
+  border-radius: 200px;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.botao{
+  background-color:white;
+  font-family: "Playfair Display", system-ui;
+  color: black;
+  border: 2px solid purple;
+  border-radius: 200px;
+  font-size: 25px;
+}
+ 
+.botao:hover{
+  border: solid 2px purple;
+}
